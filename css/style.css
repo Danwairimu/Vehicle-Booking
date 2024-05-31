@@ -1,0 +1,98 @@
+
+.body{
+    background-color: whitesmoke;
+    background-image: url(../Pictures/inooro3\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+
+}
+
+.nav{
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+border: 10px;
+width:auto;
+height: 30px;
+background-color:tomato;
+white-space: 10px;
+align-items: center;
+display: flex;
+padding: 10px;
+cursor:pointer;
+
+}
+a{
+    margin-right: 19px;
+}
+h1{
+    background-color:blanchedalmond;
+    border: 30px;
+}
+
+.nav :hover{
+    color:green;
+    background-color: rgb(235, 247, 243);
+}
+.footer{
+    margin: 10px;
+    background-color: aliceblue;
+    text-shadow: wheat;
+}
+.contact{
+    margin: 10px;
+    box-sizing: content-box;
+}
+.col-sm-6{
+    box-sizing: content-box;
+    text-shadow: yellow;
+    border: tomato;
+    background-color: bisque;
+  margin: 10px;
+  flex: content;
+}
+.col-sm-3{
+    box-sizing: content-box;
+    border-color: blue;
+    margin:10px;
+    background-color: rgb(238, 214, 185);
+    flex: content;
+    box-shadow: firebrick;
+}
+.button{
+    border-radius: 30px;
+    color:cornsilk;
+    background-color:blue;
+    font-family: cursive;
+    box-shadow:darkgoldenrod;
+    width: 40%;
+
+     
+}
+.container{
+    color:darkorchid;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid red;
+    cursor: pointer;
+   background-color: aqua;
+}
+label{
+margin: 6px;
+text-align: justify;
+width: 25px;
+padding: 35px;
+
+}
+input{
+    margin: 15px;
+    box-sizing: border-box;
+    padding: 21px;
+    width: 70%;
+}
+select{
+    margin: 15px;
+    box-sizing: border-box;
+    padding: 21px;
+    width: 70%;
+
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INOORO TRAVELLERS</title>
+  <link rel="stylesheet" href="../css/all.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <script src="../js/bootstrap.js"></script>
+  <script src="../js/all.js"></script>
+<link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="body">
+  
+  <h1>BOOKING</h1>
+
+  <Nav class="nav">
+    <li class="li" ><a href="/index.html">Home</a></li>
+    <li class="li"><a href="#">Booking</a></li><br>
+    <li class="li" ><a href="Services.html">Services</a></li>
+
+
+</Nav>
+<hr>
+
+
+  <div class="container">
+    <form action="connect.php" method="POST">
+      <div>
+        <label for="">name</label>
+        <input type="text" name="name" class="form-controll" placeholder="enter your name" required>
+      </div> 
+      <div>
+        <label for="">phone number</label>
+        <input type="number" name="mobile"class="form-controll"  placeholder="enter your phone number" required>
+      </div>
+  
+      <div>
+        <label for="">Id</label>
+        <input type="number" name="Id" class="form-controll" placeholder="enter your id number" >
+      </div>
+    
+      <div>
+        <label for="">Travelling from</label>
+        <select name="travelfrom" class="form-controll" id="">
+      
+          <option value="nakuru">Nakuru</option>
+          <option value="mau narok">Mau Narok</option>
+          <option value="njoro">Njoro</option>
+          <option value="kihingo">Kihingo</option>
+          <option value="mauche">Mauche</option>
+          <option value="narok">Narok</option>
+          <option value="likia">likia</option>
+         <option value="store mbili">store mbili</option>
+          <option value="mwisho wa lami">Mwisho wa Lami</option>
+          
+  
+  
+  
+        </select>
+      </div>
+  
+
+
+
+  
+  
+      <div>
+  
+        <label for="">Travelling to</label>
+        <select name="travelto" class="form-controll" id="">
+          
+          <option value="nakuru">Nakuru</option>
+          <option value="mau narok">Mau Narok</option>
+          <option value="njoro">Njoro</option>
+          <option value="kihingo">Kihingo</option>
+          <option value="mauche">Mauche</option>
+          <option value="narok">Narok</option>
+          <option value="likia">likia</option>
+          <option value="store mbili">store mbili</option>
+          <option value="mwisho wa lami">Mwisho wa Lami</option>
+  
+  
+  
+  
+        </select>
+      </div>
+  
+      <div>
+        <label for="">travel date</label>
+        <input type="date" name="traveldate" class="form-controll" required>
+      </div>
+      <div>
+        <label for="">travel time</label>
+        <input type="time" name="traveltime" class="form-controll" required>
+      </div>
+      <div>
+        <button class="button">book</button>
+      </div>
+  
+    </form>
+      </div>
+      <hr>
+      <br>
+      
+
+   <div class="contact">
+        
+    <h1>CONTACT US</h1>
+    <p>you can talk to our customer care services through</p>
+    <ol>
+      <li>Call:722963370</li>
+    <li>Po Box:14145 Nakuru</li>
+    </ol>
+      </div>
+   </div>     
+
+   
+<!--footer-->
+<footer class="footer">
+  <p>All Rights reserved @2024</p>
+  <p>Created  by  <b>ORIENT DEVELOPERS</b></p>
+</footer>
+  
+
+</body>
+</html>
